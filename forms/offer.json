@@ -1,0 +1,115 @@
+[
+  { "name": "title",
+    "type": "text-field",
+    "value": "",
+    "label": "Titre de l'annonce",
+    "placeholder": "Nom du porte-feuille",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "text",
+    "type": "textarea",
+    "value": "",
+    "label": "Texte de l'annonce",
+    "placeholder": "Texte de l'annonce",
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "status",
+    "type": "text-field",
+    "value": "",
+    "label": "Status",
+    "placeholder": "Status",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "type",
+    "type": "radio", 
+    "value": "",
+    "label": "Type",
+    "showInTable" : true,
+    "values": [{
+        "value": "OFFER",
+        "label": "Offre"
+      },{
+        "value": "DEMANDE",
+        "label": "Demande"
+      }
+    ],
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "category",
+    "type": "ENTITY",
+    "label": "Catégorie",
+    "multiple": false,
+    "entityType": "offerCategory",
+    "attrLabelKey": "name",
+    "attrValueKey": "_id",
+    "value": "",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "uidWalletCreator",
+    "type": "text-field",
+    "value": "",
+    "label": "Uid Wallet",
+    "placeholder": "UID du porte-feuille du créateur",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "amountMony",
+    "type": "text-field", 
+    "value": "",
+    "label": "Montant (en Oto)",
+    "showInTable" : true,
+    "showInFormCreate" : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "gallery",
+    "type": "file-upload-image-multi",
+    "label": "Gallerie",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "creator",
+    "type": "ENTITY",
+    "label": "Créateur",
+    "multiple": false,
+    "entityType": "user",
+    "attrLabelKey": "name",
+    "attrValueKey": "_id",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "fictif",
+    "type": "switch", 
+    "value": false,
+    "label": "Annonce fictive",
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "created",
+    "type": "date", 
+    "value": null,
+    "label": "Créé le",
+    "showInTable" : true,
+    "showInFormCreate" : false,
+    "showInFormEdit" : false
+  }
+]

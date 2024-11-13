@@ -1,0 +1,22 @@
+[
+  { "name": "title",
+    "type": "text-field",
+    "value": "",
+    "label": "Question ?",
+    "placeholder": "Question ?",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  },
+  { "name": "text",
+    "type": "textarea",
+    "value": "",
+    "label": "Réponse",
+    "placeholder": "Réponse",
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  }
+]

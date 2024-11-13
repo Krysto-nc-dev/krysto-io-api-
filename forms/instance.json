@@ -1,0 +1,39 @@
+[
+  { "name": "name",
+    "type": "text-field",
+    "value": "",
+    "label": "Nom",
+    "placeholder": "Indiquez le nom de l'instance",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "unityTotal",
+    "type": "text-field",
+    "value": "",
+    "label": "unityTotal",
+    "placeholder": "unityTotal",
+    "showInTable" : true,
+    "showInFormCreate"  : false,
+    "showInFormEdit" : true
+  },
+  { "name": "monyConvertValue",
+    "type": "text-field",
+    "value": "",
+    "label": "monyConvertValue",
+    "placeholder": "monyConvertValue",
+    "showInTable" : true,
+    "showInFormCreate"  : false,
+    "showInFormEdit" : true
+  },
+  { "name": "limitForFreePlan",
+    "type": "text-field",
+    "value": "",
+    "label": "Limite Premium",
+    "placeholder": "Limite nbUser compte premium",
+    "showInTable" : true,
+    "showInFormCreate"  : false,
+    "showInFormEdit" : true
+  }
+  
+]

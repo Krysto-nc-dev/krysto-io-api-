@@ -1,0 +1,25 @@
+[
+  {
+    "name": "offer",
+    "type": "ENTITY",
+    "label": "Annonce",
+    "multiple": false,
+    "entityType": "offer",
+    "attrLabelKey": "title",
+    "attrValueKey": "_id",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "status",
+    "type": "text-field",
+    "value": "",
+    "label": "Status",
+    "placeholder": "Status",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  }
+]

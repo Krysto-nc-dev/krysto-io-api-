@@ -1,0 +1,12 @@
+[
+  { "name": "name",
+    "type": "text-field",
+    "value": "",
+    "label": "Nom de la catégorie",
+    "placeholder": "Nom de la catégorie",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  }
+]

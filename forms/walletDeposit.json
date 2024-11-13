@@ -1,0 +1,40 @@
+[
+  { "name": "name",
+    "type": "text-field",
+    "value": "",
+    "label": "Nom",
+    "placeholder": "Nom du porte-feuille",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "owner",
+    "type": "ENTITY",
+    "label": "Propriétaire",
+    "multiple": false,
+    "entityType": "user",
+    "attrLabelKey": "email",
+    "attrValueKey": "_id",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "uid",
+    "type": "text-field", 
+    "value": "",
+    "label": "Identifiant unique du porte-feuille (uid)",
+    "showInTable" : true,
+    "showInFormCreate" : false,
+    "showInFormEdit" : true
+  },
+  { "name": "created",
+    "type": "date", 
+    "value": null,
+    "label": "Créé le",
+    "showInTable" : true,
+    "showInFormCreate" : false,
+    "showInFormEdit" : false
+  }
+]

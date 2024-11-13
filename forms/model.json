@@ -1,0 +1,112 @@
+[
+  { "name": "name",
+    "type": "text-field",
+    "value": "",
+    "label": "Nom",
+    "placeholder": "Indiquez votre nom",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  },
+  { "name": "description",  
+    "type": "textarea",
+    "value": "",
+    "label": "Description",
+    "placeholder": "Indiquez une description",
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  },
+  { "name": "country",  
+    "type": "text-field",
+    "value": "",
+    "label": "Pays",
+    "placeholder": "Indiquez votre pays",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  },
+  { "name": "sexe",
+    "type": "radio", 
+    "value": "",
+    "label": "Genre",
+    "showInTable" : true,
+    "values": [{
+        "value": "male",
+        "label": "Homme"
+      },{
+        "value": "female",
+        "label": "Femme"
+      }
+    ],
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "public",
+    "type": "switch", 
+    "value": false,
+    "label": "Public",
+    "showInTable" : false,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "age",
+    "type": "slider", 
+    "value": 18,
+    "value-min": 0,
+    "value-max": 100,
+    "label": "Age",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "ageRange",
+    "type": "range-slider", 
+    "value": [30, 50],
+    "value-min": 18,
+    "value-max": 100,
+    "label": "Tranche d'âge",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "image",
+    "type": "file-upload-image",
+    "label": "Image",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "imageBanner",
+    "type": "file-upload-image",
+    "label": "Image bannière",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  {
+    "name": "gallery",
+    "type": "file-upload-image-multi",
+    "label": "Gallerie",
+    "value": null,
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true
+  },
+  { "name": "created",
+    "type": "date", 
+    "value": null,
+    "label": "Créé le",
+    "showInTable" : false,
+    "showInFormCreate" : false,
+    "showInFormEdit" : false
+  }
+]

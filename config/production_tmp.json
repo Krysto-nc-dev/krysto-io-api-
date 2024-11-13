@@ -1,0 +1,50 @@
+{
+  "domainName": "krup.nc",
+  "domainUrlClient": "https://krup.nc",
+  "domainUrlApiProd" : "https://api.krup.nc",
+  "port": 5001,
+  "portSocket": 5002,
+  "db_url" : "mongodb://localhost:27017/",
+  "db_name": "krup",
+  "access_pk": "ZmU2NjhiOWUzMjIyYTRiYTFkN2UiLCJpYXQiOjE1NzMxMjYyMTB3",
+  "root_pk": "ZmU2NjhiOWUzMjIyYTRiZTFkN2UiLCJpYXQiOjE1NzMxMjYyMTG9",
+  "allow_origin": ["https://krup.nc", "https://admin.krup.nc"],
+  "languages" : ["fr", "en", "es"],
+  "maxAmountDeposit": 365.25,
+  "multichain": {
+    "active": true,
+    "port": 4392,
+    "host": "127.0.0.1",
+    "user": "multichainrpc",
+    "pass": "EdyDFCQgfsTcWGYfi5ctnSD2Y5DjDjxgPkdCMf7xwvA8" 
+  }, 
+  "mailserver" : {
+    "domain" : "postal.krup.nc",
+    "apikey" : "gs7RsdPMUaR7OZ7VTMUGn9MU"
+  },
+  "email" : {
+    "signature" : "Krup",
+    "mode" : "dev",
+    "replyTo" : "krysto.contact@gmail.com",
+    "contactTo" : "krysto.contact@gmail.com",
+    "devTo" : "krysto.contact@gmail.com",
+    "from" : {
+      "reservation": "krysto.contact@gmail.com",
+      "commande": "krysto.contact@gmail.com",
+      "contact": "Krup <krysto.contact@gmail.com>"
+    }
+  },
+  "captcha": {
+    "cryptokey" : "ydAORfAp5VWNLDfhsosxiqcdWlahVasa",
+    "algorithm" : "aes-256-cbc"
+  },
+  "stripe" : {
+    "private_key" : "",
+    "public_key" : "",
+    "webhookSecret" : ""
+  },
+  "stripe_prod" : {
+    "private_key" : "",
+    "public_key" : ""
+  }
+}

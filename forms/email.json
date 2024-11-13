@@ -1,0 +1,32 @@
+[
+  { "name": "key",
+    "type": "text-field",
+    "value": "",
+    "label": "Key",
+    "placeholder": "Identifiant Email",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : false
+  },
+  { "name": "subject",
+    "type": "text-field",
+    "value": "",
+    "label": "Objet",
+    "placeholder": "Objet du mail",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  },
+  { "name": "message",
+    "type": "textarea",
+    "value": "",
+    "label": "Message",
+    "placeholder": "Contenu du mail",
+    "showInTable" : true,
+    "showInFormCreate"  : true,
+    "showInFormEdit" : true,
+    "translatable" : true
+  }
+]

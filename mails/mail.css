@@ -1,0 +1,13 @@
+<style>
+.btn-action1{
+  padding:8px;
+  border-radius: 4px;
+  color: white !important;
+  background-color: #ffa000;
+  text-decoration:none;
+}
+.mail-header{
+  text-align:center;
+  border-bottom: 1px solid #dfdfdf;
+}
+</style>
